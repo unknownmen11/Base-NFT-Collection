@@ -1,1 +1,21 @@
-# Base-NFT-Collection
+**Base NFT Collection
+**```markdown
+# Base NFT Collection
+- ✅ ERC-721 استاندارد
+```bash
+npm install @openzeppelin/contracts
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+
+contract BaseNFT is ERC721 {
+    uint256 private _tokenIdCounter;
+
+    constructor() ERC721("BaseNFT", "BNFT") {}
+
+    function safeMint(address to) public {
+        uint256 tokenId = _tokenIdCounter++;
+        _safeMint(to, tokenId);
+    }
+}
