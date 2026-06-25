@@ -1,8 +1,6 @@
 **Base NFT Collection
 **```markdown
 # Base NFT Collection
-- ✅ ERC-721 استاندارد
-```bash
 npm install @openzeppelin/contracts
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
