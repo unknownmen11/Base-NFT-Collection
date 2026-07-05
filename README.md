@@ -13,4 +13,3 @@ contract BaseNFT is ERC721 {
         uint256 tokenId = _tokenIdCounter++;
         _safeMint(to, tokenId);
     }
-}
