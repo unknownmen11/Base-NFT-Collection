@@ -1,7 +1,6 @@
 **Base NFT Collection
 **```markdown
 # Base NFT Collection
-
 npm install @openzeppelin/contracts
 
 // SPDX-License-Identifier: MIT
