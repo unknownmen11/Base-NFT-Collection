@@ -2,7 +2,6 @@
 **```markdown
 # Base NFT Collection
 npm install @openzeppelin/contracts
-
 // SPDX-License-Identifier: MIT
 pragma  ^.8.0;
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
